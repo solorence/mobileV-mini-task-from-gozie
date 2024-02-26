@@ -76,7 +76,7 @@ nav{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
 
 .left, .right{padding-left:30px; padding-top:60px;} 
 
-.right{justify-self:center; align-self:center; padding:0; width:75%}
+.right{justify-self:center; align-self:center; padding:0px; width:75%}
 
 .left1, .right1{font-size:18px; font-weight:bold; margin-bottom:10px;}
 
@@ -156,69 +156,37 @@ nav > :nth-child(2), .headerlink {flex-basis:35%; text-align:center;}
 
 
 
-.section2{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:50vh; width:100%; padding-left:65px;}
+.itemdisplay{background-color:white; display:grid; grid-template-columns:1fr 1fr; gap:10px;
+}
 
-.lgrs2l{place-self:center left;} 
+.laughingimg1{height:50%; width:100%;}
 
-.lgrs2l1{font-size:4vw; font-weight:bold; margin-bottom:10px;}
-
-.lgrs2l2{font-size:8px; line-height:1.4; margin-bottom:27px; color:gray}
-
-.lgrs2l3{font-size:8px; display:flex; line-height:1.4;}
-
-.lgrs2l3 img{width:25px; margin-bottom:10px}
-
-.lgrs2l3l :nth-child(2){font-weight:bold; padding-bottom:5px}
-
-.lgrs2l3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
-
-.lgrs2l3l :nth-child(3){color:gray}
-
-.lgrs2l3r :nth-child(3){color:gray;}
-
-.lgrs2l3r{padding-left:18px}
-
-
-.lgrs2r{background-image:url(../img/posinglady.jpg); background-size:90% 60%; background-repeat:no-repeat; background-position:100% 70%;}
-
-
-.left, .right{padding-left:30px; padding-top:60px;} 
-
-.right{justify-self:center; align-self:center; padding:0; width:75%}
-
-.left1, .right1{font-size:18px; font-weight:bold; margin-bottom:10px;}
-
-.left2, .right2{font-size:8px; line-height:1.5; margin-bottom:35px; color:gray}
-
-
-.left3, .right3{font-size:8px; display:flex; line-height:1.5;}
-
-.left3 img, .right3 img{width:25px; margin-bottom:10px}
-
-.left3l :nth-child(2), .right3l :nth-child(2){font-weight:bold; padding-bottom:5px}
-
-.left3r :nth-child(2), .right3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
-
-.left3l :nth-child(3), .right3l :nth-child(3){color:gray} 
-
-.left3r :nth-child(3), .right3r :nth-child(3){color:gray}
-
-
-.left3r{padding-left:18px}
-
-.right3r{padding-left:50px}
-
-
-
-.itemdisplay{background-color:white; padding-left:45px; height:450px; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr;}
-
-.laughingimg1{height:100%; width:100%;}
-
-.itemdisplay2{padding-left:65px; grid-template-columns:40% 70%;}
-
-.itemdisplay3{height:350px}
+/*.itemdisplay2{padding-left:65px; grid-template-columns:40% 70%;}*/
 
 .itemdivide{padding-top:15px}
 
  .itemdisplay, .lgrs12, .section2 {padding-left: 10px; } 
+
+
+.right{ width:100%; align-self:start}
+
+.right1{font-size:1em; font-weight:bold; margin-bottom:10px;}
+
+.right2{font-size:8px; line-height:1.5; margin-bottom:25px; color:gray}
+
+
+.right3{font-size:8px; display:flex; line-height:1.5;}
+
+.right3 img{width:25px; margin-bottom:10px}
+
+.right3l :nth-child(2){font-weight:bold; padding-bottom:5px}
+
+.right3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.right3l :nth-child(3){color:gray} 
+
+.right3r :nth-child(3){color:gray}
+
+.right3r{padding-left:10px; }
+
 }
