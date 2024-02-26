@@ -155,11 +155,12 @@ nav > :nth-child(2), .headerlink {flex-basis:35%; text-align:center;}
 .lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:80% 65%; background-repeat:no-repeat;background-position:right 31%;}
 
 
-
-.itemdisplay{background-color:white; display:grid; grid-template-columns:1fr 1fr; gap:10px;
+.itemdisplay{background-color:white; display:grid; grid-template-columns:1fr 1fr; gap:10px; height:60%; padding-bottom:20px; margin-top:60px
 }
 
-.laughingimg1{height:50%; width:100%;}
+.laughingimg1{height:70%; width:100%; place-self:center }
+
+.imgdiv {background-color:rgb(245, 246, 251); display:grid }
 
 /*.itemdisplay2{padding-left:65px; grid-template-columns:40% 70%;}*/
 
