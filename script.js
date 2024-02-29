@@ -57,28 +57,14 @@ function formValidation(event){
   event.preventDefault();
   
   for (let item of inputContainer ) {
-  
-    if (item.id == 'message') {
      
       if (item.value == "") {
         errorSignal(item);
-        console.log ('textarea no content value =' + item.value);
       }
       else if(item.className.includes('redborder')) {
-      console.log ('textarea with content value = '+ item.value);
       item.classList.remove('redborder'); 
       } 
    
-    } 
-    
-    else{ 
-        if(item.value == ""){
-          errorSignal(item);
-        }
-        else if (item.className.includes('redborder')) {
-          item.classList.remove('redborder');
-        }
-      } 
-  }
+    }
 
 } 
