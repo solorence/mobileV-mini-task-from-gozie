@@ -22,8 +22,14 @@ input[type="submit"]{font-size:1em; width:80%; margin-left:10%; background-color
 
 input:focus, textarea:focus{outline-color : rgb(25, 26, 71);}
 
+.redborder{border:2px solid red;}
 
+.mark::after{
+  content:"*"; 
+  color:red;
+}
 
+.fnameerrormsg{}
 
 
 @media screen and (max-width :800px) {
@@ -49,5 +55,12 @@ textarea {height:100px; background-color:white;}
 .fd5{height:35%; width:80%; margin-left:10%}
 
 input[type="submit"]{font-size:1em; width:80%; margin-left:10%;}
+
+.redborder{border:2px solid red;}
+
+.mark::after{
+  content:"*"; 
+  color:red;
+}
 
 } 
