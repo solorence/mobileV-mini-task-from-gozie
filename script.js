@@ -19,16 +19,10 @@ let submit = document.querySelector('#submit');
 submit.addEventListener('click', formValidation );
 
 let form = document.querySelector ('form');
-form.addEventListener('blur', ipt);
-
-
-function ipt (event){
-  event.preventDefault();
-}
 
 
 
-function fnamemarker(item) {
+function errorMarker(item) {
   
   if (!item.className.includes('redborder')) {
     item.className += ' redborder';
@@ -40,19 +34,19 @@ function fnamemarker(item) {
 function errorSignal(item){
   
   switch(item.id){
-    case 'firstname': fnamemarker(item);
+    case 'firstname': errorMarker(item);
       break;
       
-    case 'lastname': fnamemarker(item);
+    case 'lastname': errorMarker(item);
       break;
       
-    case 'email':fnamemarker(item);
+    case 'email':errorMarker(item);
       break;
     
-    case 'number':fnamemarker(item);
+    case 'number':errorMarker(item);
       break;
     
-    case 'message': fnamemarker(item); 
+    case 'message': errorMarker(item); 
       
   }
   
