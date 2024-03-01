@@ -6,7 +6,7 @@ nav{display:flex; align-items:center; padding:10px 0 0 5px; height:30px; margin-
 
 nav .headerlink {flex-basis:20%; text-align:center;}
 
-.headerlink{display:flex; justify-content:space-between;}
+.headerlink{display:flex; justify-content:space-between;align-items:center; }
 
 .headerlink p{font-size:1em; font-weight:bold}
 
@@ -110,3 +110,8 @@ input[type="submit"]{font-size:1em; width:80%; margin-left:10%;}
 
 
 } 
+
+.contactload{background-color:black; 
+color:white; padding-left:3px; 
+padding-right:3px; padding-top:3px; 
+border-radius: 4px 4px 0 0}

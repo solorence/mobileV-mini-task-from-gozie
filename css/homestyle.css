@@ -14,7 +14,7 @@ body{
 .section1{background-image:url(../img/bgpic.png); background-size:670px 520px; 
 background-repeat:no-repeat; background-position:right bottom; width:100%; height:500px; }
 
-nav{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
+nav{display:flex; align-items:center; padding: 10px 0 0 30px;* height:20px;}
 
 .lgrs11 p{font-size:8px;}
 
@@ -24,7 +24,7 @@ nav{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
 
 /*.lgrs11 :last-child span{background-color: rgb(25, 26, 71); padding:3px 25px; border-radius:1px}*/
 
-.headerlink{display:flex; justify-content:space-around;}
+.headerlink{display:flex; justify-content:space-around; align-items:center;}
 
 .headerlink p{font-size:0.7em; font-weight:bold}
 
@@ -236,3 +236,9 @@ nav > :nth-child(2), .headerlink {flex-basis:35%; text-align:center;}
 
 .section1{ height:47vh; }
 } 
+
+
+.homeload{background-color:black; 
+color:white; padding-left:3px; 
+padding-right:3px; padding-top:3px; 
+border-radius: 4px 4px 0 0}

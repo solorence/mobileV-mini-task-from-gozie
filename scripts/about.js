@@ -28,3 +28,10 @@ function toAbout() {
 function toContactus() {
   location.href = contactLink;
 }
+
+function aboutLoad() {
+  console.log('homeload class added')
+  about.classList.add('aboutload');
+}
+
+window.addEventListener("DOMContentLoaded", aboutLoad);

@@ -171,3 +171,11 @@ if (regex.test(phoneNumberInput)) {
   } 
 
 }
+
+
+function contactLoad() {
+  console.log('contact class added')
+  contactus.classList.add('contactload');
+}
+
+window.addEventListener("DOMContentLoaded", contactLoad);

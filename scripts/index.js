@@ -17,6 +17,7 @@ about.addEventListener('click', toAbout);
 
 contactus.addEventListener('click', toContactus);
 
+
 function toHome () {
   location.href = homeLink;
 }
@@ -28,3 +29,11 @@ function toAbout() {
 function toContactus() {
   location.href = contactLink;
 }
+
+
+function homeLoad() {
+  console.log ('homeload class added')
+  home.classList.add('homeload');
+}
+
+window.addEventListener("DOMContentLoaded", homeLoad);
