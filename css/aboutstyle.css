@@ -25,6 +25,8 @@ nav{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
 
 .headerlink{display:flex; justify-content:space-around;}
 
+.headerlink p{font-size:0.7em; font-weight:bold}
+
 .headerlink {flex-basis:33.3%; text-align:center;}
 
 .lgrs11 > :nth-child(3){color:white; padding:3px 0; background-color: rgb(25, 26, 71); padding:3px 10px; border-radius:1px; margin-left:auto; margin-right:10%; width:10%; text-align:center }
@@ -44,11 +46,11 @@ nav{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
 
 .lgrs12l :nth-child(3) p{font-size:8px; display:inline-block; width:100px; text-align:center; border:1px solid  rgb(25, 26, 71); padding:3px 15px; border-radius:1px} 
 
-.lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:80% 75%; background-repeat:no-repeat;background-position:100% 110px;}
+.lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:80% 70%; background-repeat:no-repeat;background-position:100% 110px;}
 
 
 
-.section2{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:400px; width:100%; padding-left:65px;}
+.section2{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:400px; width:100%; padding-left:65px; border:1px solid ; margin-top:50px}
 
 .lgrs2l{place-self:center left;} 
 
@@ -102,7 +104,7 @@ nav{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
 
 
 
-.itemdisplay{background-color:white; padding-left:45px; height:450px; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr;}
+.itemdisplay{background-color:white; padding-left:45px; height:450px; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; margin-top:50px}
 
 .laughingimg1{height:100%; width:100%;}
 

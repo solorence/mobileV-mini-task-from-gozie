@@ -2,11 +2,20 @@
 html{height:100vh}
 body{height:100%; width:100vw; position:relative}
 
-header{text-align:center; font-size:2em; margin-top:20px; margin-bottom:20px;}
+nav{display:flex; align-items:center; padding:10px 0 0 5px; height:30px; margin-bottom:5%;}
+
+nav .headerlink {flex-basis:20%; text-align:center;}
+
+.headerlink{display:flex; justify-content:space-between;}
+
+.headerlink p{font-size:1em; font-weight:bold}
+
+
+header{text-align:center; font-size:2em; margin-top:20px; margin-bottom:25px;}
 
 label{font-size:1em; margin-bottom:2px}
 
-form{min-height:40%; width:50vw; background-color:rgb(245, 246, 251); margin-left:25vw; display:flex; flex-direction:column; gap:40px; position:absolute; padding-top:30px}
+form{min-height:40%; width:40vw; background-color:rgb(245, 246, 251); margin-left:30vw; display:flex; flex-direction:column; gap:40px; position:absolute; padding-top:30px}
 
 form > div{ position:relative; display:flex; flex-direction:column; justify-content:flex-end;}
 
@@ -76,6 +85,10 @@ input:focus, textarea:focus{outline-color : rgb(25, 26, 71);}
   *{box-sizing:border-box; padding:0; margin:0}
 html{height:100vh}
 body{height:100%; width:100vw; position:relative}
+
+nav .headerlink {flex-basis:35%; text-align:center;}
+
+.headerlink p{font-size:0.7em; font-weight:bold}
 
 header{text-align:center; font-size:1.5em; margin-top:20px; margin-bottom:10px;}
 
