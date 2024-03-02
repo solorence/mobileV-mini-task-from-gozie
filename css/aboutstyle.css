@@ -19,9 +19,6 @@ nav{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
 
 .lgrs11 > :nth-child(2){font-weight:bold; font-size:12px; flex-basis:33.3%; text-align:center;}
 
-/*.lgrs11 > :nth-child(3){color:white; padding:3px 0;} */
-
-/*.lgrs11 :last-child span{background-color: rgb(25, 26, 71); padding:3px 25px; border-radius:1px}*/
 
 .headerlink{display:flex; justify-content:space-around; align-items:center }
 
@@ -76,33 +73,28 @@ nav{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
 .lgrs2r{background-image:url(../img/posinglady.jpg); background-size:85% 70%; background-repeat:no-repeat; background-position:10% 50%;}
 
 
-.left, .right{padding-left:30px; padding-top:60px;} 
+.right{padding-left:30px; padding-top:60px;} 
 
 .right{justify-self:center; align-self:center; padding:0px; width:75%}
 
-.left1, .right1{font-size:18px; font-weight:bold; margin-bottom:10px;}
+.right1{font-size:18px; font-weight:bold; margin-bottom:10px;}
 
-.left2, .right2{font-size:8px; line-height:1.5; margin-bottom:35px; color:gray}
-
-
-.left3, .right3{font-size:8px; display:flex; line-height:1.5;}
-
-.left3 img, .right3 img{width:25px; margin-bottom:10px}
-
-.left3l :nth-child(2), .right3l :nth-child(2){font-weight:bold; padding-bottom:5px}
-
-.left3r :nth-child(2), .right3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
-
-.left3l :nth-child(3), .right3l :nth-child(3){color:gray} 
-
-.left3r :nth-child(3), .right3r :nth-child(3){color:gray}
+.right2{font-size:8px; line-height:1.5; margin-bottom:35px; color:gray}
 
 
-.left3r{padding-left:18px}
+.right3{font-size:8px; display:flex; line-height:1.5;}
+
+.right3 img{width:25px; margin-bottom:10px}
+
+.right3l :nth-child(2){font-weight:bold; padding-bottom:5px}
+
+.right3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.right3l :nth-child(3){color:gray} 
+
+.right3r :nth-child(3){color:gray}
 
 .right3r{padding-left:50px}
-
-
 
 .itemdisplay{background-color:white; padding-left:45px; height:450px; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; margin-top:50px}
 
